@@ -22,7 +22,7 @@ api = tweepy.API(auth)
 filename=open(argfile,'r') #open up the argument file
 f=filename.readlines() #Read in each line into a variable called f
 filename.close() #close that file
- print("Hello, World")
+
 for line in f:
     #Every 15 minutes, read out another one of those lines in f from the text file.
     api.update_status(line)
