@@ -9,10 +9,10 @@ import tweepy, sys, time
 
 argfile = str(sys.argv[1])
 
-CONSUMER_KEY = 'SeYjLYZr5XjpCNw28j8KxbuwY'
-CONSUMER_SECRET = '4xTSu9ulPLbtthsC9IaTkxgoIDpRd7wlbsbIST29skPwtQvrYi'
-ACCESS_KEY = '797920179678285824-a52Zj2mbthEr7A36il3UaW2laJ2web1' 
-ACCESS_SECRET = '7ThiAslAOhlr7UZjC2ywkur5veRxPBM7J7M0MxJZ5Th54'
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
+ACCESS_KEY = '' 
+ACCESS_SECRET = ''
 
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
